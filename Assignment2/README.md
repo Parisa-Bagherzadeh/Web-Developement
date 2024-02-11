@@ -1,1 +1,1 @@
-![img](output/result.png)
+![img](output/assignment2.png)
