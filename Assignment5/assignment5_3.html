@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <link rel="stylesheet" href=
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+    
+            body{
+                background: linear-gradient(#e42967,#111199);
+            }
+            #form{
+                position: absolute;
+                width: 380px;
+                height: 500px;
+                background-color: white;
+                left:500px;
+                top:50px;
+            }
+            h2{
+                font-size: 25px;
+                padding-left: 140px;
+                color:#111133;
+
+            }
+
+            #ep{
+                left:200px;
+            }
+       
+         
+       
+            input[type=email], select {
+                background-color:#ccc;
+                padding-left: 40px; 
+                position: absolute;
+                left: 80px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                background-image: url('icons/email.png');
+                background-repeat: no-repeat;
+                background-position: 10px;
+                height: 48px;
+            
+            }
+            input[type=password], select {
+                background-color:#ccc;
+                padding-left: 40px;
+                position: absolute;
+                left: 80px;
+                top:140px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                background-image: url('icons/lock.png');
+                background-position: 10px;
+                background-repeat: no-repeat;
+                height: 48px;
+            }
+           
+            input[type=submit], select {
+                position: absolute;
+                left: 80px;
+                top:250px;
+                border: 1px solid #ccc;
+                background-color: #e42967;
+                border-radius: 2px;
+                padding: 15px;
+                width: 220px;
+                color:#ccc;
+            }
+            input[type=checkbox], select {
+                position: absolute;
+                left: 80px;
+                top:200px;
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                
+                
+            }
+            label{
+                position: absolute;
+                left: 110px;
+                top:200px;
+                color:#aaa;
+            }
+            #text{
+                position: absolute;
+                top:350px;
+                left:140px;
+                color:#aaa;
+
+            }
+            #facebook{
+                position: absolute;
+                top:390px;
+                left:80px;
+                border-style: solid;
+                border-color: #aaa;
+                border-width: 1px;
+                width:100px;
+                height: 20px;
+                color:#111199;
+                font-size: small;
+                background-image: url('icons/facebook.png');
+                background-repeat: no-repeat;
+                background-position: 5px;
+            }
+            #google{
+                position: absolute;
+                top:390px;
+                left:200px;
+                border-style: solid;
+                border-color: #aaa;
+                border-width: 1px;
+                width:100px;
+                height: 20px;
+                color:#111199;
+                font-size: small;
+                background-image: url('icons/google.png');
+                background-repeat: no-repeat;
+                background-position: 5px;
+
+            }
+            #member{
+                position: absolute;
+                left:120px;
+                top:450px;
+                color: #aaa;
+                font-size: small;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <h2>LOGIN</h2>
+                <input type="email" placeholder = "Email">
+                <input type="password">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Rememeber me</label>
+                <input type="submit" value="LOGIN">
+                <div id="text">Or login with</div>
+                <button id="facebook">Facebook</button>
+                <button id="google">Google</button>
+                <div id="member">Not a member?<u>Sign up now</u></div>
+        </div>
+    </body>
+</html>
